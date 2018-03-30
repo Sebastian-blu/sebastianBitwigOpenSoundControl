@@ -1,0 +1,33 @@
+:root {
+	--color-text: rgba(255,255,255,0.8);
+	--color-text-fade: rgba(255,255,255,0.7);
+
+    --color-accent: #00BCFF;
+
+	--color-bg: #0D0D0D;
+
+	--color-fg: #111;
+
+	--color-raised: #535353;
+
+	--color-track: #2E2E2E;
+
+	--color-light: rgba(255,255,255,0.03);
+}
+
+.keyboard-container {
+	--color-black-key: #555555;
+	--color-white-key: #888888;
+}
+
+.widget.push-container.on,
+.widget.toggle-container.on
+{
+	background : #FF7D00;	
+}
+.widget.push-container.on .label,
+.widget.toggle-container.on .label
+{
+	color: #00BCFF;
+	font-weight: bolder;
+}
