@@ -14236,7 +14236,7 @@
                         "widgets": [
                           {
                             "type": "fader",
-                            "id": "fader_@{parent.variables.n}",
+                            "id": "fader_console_control@{parent.variables.n}",
                             "linkId": "",
                             "horizontal": false,
                             "css": "",
@@ -14327,7 +14327,7 @@
                           },
                           {
                             "type": "led",
-                            "id": "track_color_@{parent.variables.n}",
+                            "id": "track_color_console_control@{parent.variables.n}",
                             "linkId": "",
                             "height": "100%",
                             "css": "",
@@ -14474,7 +14474,7 @@
                           },
                           {
                             "type": "text",
-                            "id": "ChannelName_@{parent.variables.n}",
+                            "id": "ChannelName_console_control@{parent.variables.n}",
                             "height": "100%",
                             "css": "&, .text, .text:after {\nbackground:transparent; \nborder-color:transparent;\nbox-shadow:none;padding:0;\nmargin: 0;\n}",
                             "preArgs": [],
